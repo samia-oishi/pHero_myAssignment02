@@ -23,3 +23,39 @@ li a:hover{
     font-weight: 600;
     transition: 0.5s;
 }
+/* Mobile version code below: */
+@media (max-width: 500px) {
+    .navBar {
+        margin: 5px 20px; 
+    }
+    img{
+        height: 50px;
+    }
+
+    ul {
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    ul li {
+        display: none; 
+    }
+
+    ul li:last-child {
+        display: block;
+        padding-top:10px;
+    }
+
+    ul li:last-child a {
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    ul li:last-child a:hover {
+        font-weight: 500;
+        color:rgba(0, 0, 0, 0.879);
+        transition: 0.5s;
+    }
+}
