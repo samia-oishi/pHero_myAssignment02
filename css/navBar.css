@@ -1,0 +1,25 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin:15px 75px;
+}
+img{
+    height: 60px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 13px;
+}
+li a{
+    text-decoration: none;
+    color: darkslategray;
+}
+li a:hover{
+    color: rgba(0, 0, 0, 0.879);
+    font-weight: 600;
+    transition: 0.5s;
+}
