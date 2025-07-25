@@ -1,0 +1,32 @@
+.banner{
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+}
+.bannerImg{
+    margin-top: 40px;
+    width: 550px;
+    height: auto;
+    object-fit: cover;
+}
+h1{
+    margin-top: 125px;
+    font-family: "Noto-serif";
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.blacktxt{
+    color:rgba(0, 0, 0, 0.879);
+}
+.orangetxt{
+    color: #E95A08;
+}
+p{
+    padding-top: 20px;
+    color: darkslategrey;
+    font-size: 17px;
+}
+
