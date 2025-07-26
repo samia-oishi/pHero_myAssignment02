@@ -1,0 +1,108 @@
+    .plantsLover {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 120px;
+      margin-right: 120px;
+      gap: 100px;
+    }
+
+    .ploveImg {
+      position: relative;
+      width: 400px;
+      margin-top: 60px;
+    }
+
+    .ploveImg img:first-child {
+      width: 400px;
+      height: auto;
+      padding-left: 25px;
+    }
+
+    .ploveImg img:last-child {
+      position: absolute;
+      top: -50px;
+      left: 50%;
+      transform: translateX(50%);
+      width: 180px;
+      height: auto;
+    }
+
+    .ploveTxt h1 {
+      padding-left: 10px;
+      font-size: 40px;
+      font-weight: 700;
+      color: #222;
+      margin-bottom: 20px;
+    }
+
+    .ploveTxt ul {
+      padding-left: 20px;
+      display:block;
+      list-style: inside;
+    }
+
+    .ploveTxt li {
+      font-size: 18px;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 15px;
+      text-wrap: balance;
+    }
+
+@media (max-width: 430px) {
+  .plantsLover {
+    flex-direction: column;
+    margin: 0 16px;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .ploveImg {
+    width: 90%;
+    height: auto;
+    margin-top: 40px;
+    position: relative;
+  }
+
+  .ploveImg img:first-child {
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    display: block;
+  }
+
+  .ploveImg img:last-child {
+    display: none;
+  }
+
+  .ploveTxt {
+    display: block;
+    width: 90%;
+    text-align: left;
+  }
+
+  .ploveTxt h1 {
+    text-align: center;
+  }
+
+  .ploveTxt ul {
+    padding-left: 10px;
+    margin: 0;
+    list-style: disc;
+    text-align: left;
+  }
+
+  .ploveTxt li {
+    display: block;
+    visibility: visible;
+    list-style: disc;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-wrap: balance;
+  }
+}
+
+    

@@ -54,7 +54,10 @@ button:hover{
 }
 @media (max-width: 430px) {
   .plantsSection {
-    margin: 0 16px;
+    margin-top: 0;
+    margin-left: 16px;
+    margin-right:16px;
+    padding: 0px;
   }
   .Cards {
     grid-template-columns: repeat(2, 1fr);
@@ -63,15 +66,15 @@ button:hover{
     justify-items: center;
   }
   .plantsCard {
-    width: 150px;
+    width: 170px;
     margin-top: 16px;
   }
   .pcardImg {
-    width: 150px;
+    width: 170px;
     height: auto;
   }
   button {
-    width: 150px;
+    width: 170px;
     height: 36px;
     font-size: 14px;
   }

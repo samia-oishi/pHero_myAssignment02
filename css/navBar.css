@@ -5,20 +5,20 @@
     height: 80px;
     margin:15px 120px;
 }
-img{
+.navBar img{
     height: 60px;
 }
-ul{
+.navBar ul{
     display: flex;
     gap: 30px;
     list-style: none;
     font-size: 13px;
 }
-li a{
+.navBar li a{
     text-decoration: none;
     color: darkslategray;
 }
-li a:hover{
+.navBar li a:hover{
     color: rgba(0, 0, 0, 0.879);
     font-weight: 600;
     transition: 0.5s;
@@ -29,32 +29,32 @@ li a:hover{
         margin: 0px;
         max-width: 100%;
     }
-    img{
+    .navBar img{
         height: 50px;
     }
 
-    ul {
+    .navBar ul {
         max-width: 100%;
         justify-content: flex-end;
     }
 
-    ul li {
+    .navBar ul li {
         display: none; 
     }
 
-    ul li:last-child {
+    .navBar ul li:last-child {
         display: block;
         padding-top:10px;
     }
 
-    ul li:last-child a {
+    .navBar ul li:last-child a {
         font-size: 15px;
         display: flex;
         align-items: center;
         gap: 5px;
     }
 
-    ul li:last-child a:hover {
+    .navBar ul li:last-child a:hover {
         font-weight: 500;
         color:rgba(0, 0, 0, 0.879);
         transition: 0.5s;
