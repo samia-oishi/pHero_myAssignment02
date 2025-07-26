@@ -1,0 +1,108 @@
+.ldeals{
+    margin: 0 120px;
+}
+.ldinit{
+    text-align: center;
+}
+.ldgrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  margin-top: 40px;
+}
+.ldgrid > .bloom,
+.ldgrid > .ana {
+  height: 150px;
+}
+
+.ldgrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.ldgrid::before {
+  content: "";
+  display: none;
+}
+
+.ldgrid > .bloom,
+.ldgrid > .ana {
+  grid-column: 1;
+}
+
+.bloom {
+  grid-row: 1;
+}
+.ana {
+  grid-row: 2;
+}
+
+.zabo {
+  grid-column: 2;
+  grid-row: span 2;
+  height: 360px;
+}
+
+.bloom,
+.ana,
+.zabo {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  color: white;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Background images */
+.bloom {
+  background-image: linear-gradient(rgba(0,0,0,0.3)),url(../B12A02-Responsive-Flowers/assets/deal-bloom.png); /* Replace */
+}
+.ana {
+  background-image: linear-gradient(rgba(0,0,0,0.3)),url(../B12A02-Responsive-Flowers/assets/deal-ana.png); /* Replace */
+}
+.zabo {
+  background-image: linear-gradient(rgba(0,0,0,0.3)),url(../B12A02-Responsive-Flowers/assets/deal-zabo.png); /* Replace */
+}
+
+/* Text styling */
+.ldgrid h2 {
+  margin: 0;
+  color: aliceblue;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.ldgrid a {
+  color: aliceblue;
+  font-weight: bold;
+  margin-top: 10px;
+  text-decoration: underline;
+  text-align: center;
+}
+@media(max-width:430px){
+    .ldeals{
+        margin: 0 25px;
+    }
+    .ldinit h1{
+        font-size: 36px;
+    }
+    .ldinit p{
+        text-wrap: balance;
+    }
+    .ldgrid{
+        display: block;
+    }
+    .bloom,.ana{
+        height: 200px;
+        margin: 20px 0;
+    }
+    .zabo{
+        height:160px;
+    }
+}
