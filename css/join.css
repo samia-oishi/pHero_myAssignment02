@@ -1,0 +1,40 @@
+.join{
+    width: 100%;
+    height: 400px;
+    margin: 50px 0;
+    padding: 0;
+    background-image: url(../B12A02-Responsive-Flowers/assets/news-letter-bg.png);
+    background-position: cover;
+}
+.join h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    padding-top: 150px;
+}
+.join form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joinform{
+    width: 500px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+}
+
+.subBtn{
+    height: 40px;
+}
+@media (max-width:430px){
+    .join{
+        width: 100%;
+        height: 300px;
+        background-position: cover;
+    }
+    .join form{
+        margin: 0 20px;
+    }
+}
